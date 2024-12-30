@@ -1,6 +1,5 @@
-# Example 6: Sprague-Grundy Theorem in a Composite Game
+# Sprague-Grundy Theorem:
 
-### Sprague-Grundy Theorem:
 The **Sprague-Grundy Theorem** states that in a composite game (made up of multiple sub-games), if the XOR of the Grundy Numbers of the initial positions in all sub-games is:
 - **Non-zero**: The player starting first will **win** if they play optimally.
 - **Zero**: The player starting first will **lose**, no matter what.
