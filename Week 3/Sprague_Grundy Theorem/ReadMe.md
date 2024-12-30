@@ -34,12 +34,19 @@ The last player to move wins.
 ---
 
 ### Solution:
+
 #### Step 1: Treat Each Pile as a Sub-Game
 - Sub-game 1: Pile with `3` stones.
 - Sub-game 2: Pile with `4` stones.
 - Sub-game 3: Pile with `5` stones.
 
 #### Step 2: Calculate Grundy Numbers for Each Sub-Game
+
+##### Summary Table of Grundy Numbers:
+| **N**  | 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 |
+|--------|----|----|----|----|----|----|----|----|----|----|----|
+| **Grundy (n)** | 0  | 1  | 2  | 3  | 0  | 1  | 2  | 3  | 0  | 1  | 2  |
+
 Using the rules of the game:
 - **Grundy(3) = 3**
 - **Grundy(4) = 0**
