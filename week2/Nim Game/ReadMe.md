@@ -1,4 +1,4 @@
-## Nim Game
+# Nim Game
 
 ### Game Description:
 The **Nim Game** is a two-player game played with multiple heaps of sticks.  
